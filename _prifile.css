@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    background: rgb(17, 10, 36) !important;
+} 
+.ci{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    top: 70%;
+    left: 25%;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1) 35%,
+    rgba(0,0,129,1));
+}.ci2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    top: 10%;
+    left: 15%;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1) 35%,
+    rgba(0,0,129,1));
+}.ci3{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -10;
+    top: 40%;
+    left: 25%;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgb(0, 36, 36) 35%,
+    rgb(0, 129, 69));
+    filter: blur(4px);
+}.ci4{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -20;
+    top: 30%;
+    left: 35%;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgb(1, 161, 236) 35%,
+    rgb(4, 5, 63));
+    filter: blur(5px);
+}.c5{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    top: 40%;
+    left: 25%;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1) 35%,
+    rgba(0,0,129,1));
+}
+.w-1{
+    padding-top: 5%;
+    
+}
+.in-1{
+    
+   
+    height:70vh; 
+    
+}
+.i-s{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.i-s img{
+    width: 100%;
+    background-size:cover;
+   
+}.col-10{
+    
+    display: flex;
+    
+   
+}
+.col-4{
+    border: none !important;
+    background-color: transparent !important;
+    perspective: 900px;
+   
+}
+.sqr-0{
+    position: relative;
+    display: block;
+    /* background-color: rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1) 35%,
+    rgba(0,0,129,1)); */
+    border: 1px solid #ffffff;
+    /* background-color: blue; */
+    height: 50%;
+    margin-top: 1rem;
+    border-radius: 1rem ;
+    /* background-color: rgba(19, 28, 107, 0.877); */
+}
+.mid{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.mid .sqr-0{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 142px;
+    width: 70%;
+    height: 70%;
+    align-self:center;
+    margin-top: 15%;
+}
+.sqr1{
+    background: #ffffff86;
+    transform: rotateX(0deg) rotateY(20deg);
+    transform-style: preserve-3d;
+    
+}
+.sqr2{
+    background: #ffee02c2;
+    transform: rotateX(0deg) rotateY(20deg);
+    transform-style: preserve-3d;
+}
+.sqr4{
+    background: #ffee02c2;
+    transform: rotateX(0deg) rotateY(-20deg);
+    transform-style: preserve-3d;
+    
+}
+.sqr5{
+    background: #fa5c00c2;
+    transform: rotateX(0deg) rotateY(-20deg);
+    transform-style: preserve-3d;
+}
+
+
+.h-sec{
+    position:absolute;
+    width: 50%;
+    top: -1rem;
+    left: 25%;
+    background: 
+    rgb(43, 42, 73) 35%;
+    border-radius: .5rem;
+    color: aliceblue;
+    border: 1px solid #ffffff;
+
+}
+.cnt li{
+    
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    color: aqua;
+    font-size: 36px;
+    font-weight: 800;
+    
+    
+    
+}
