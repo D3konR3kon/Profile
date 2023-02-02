@@ -2,10 +2,13 @@
 
 
 body{
-    background: linear-gradient(90deg,
-    rgb(175, 169, 153) 35%,
-    rgb(180, 176, 149)) !important;
+    background: rgb(175,169,153);
+background: linear-gradient(180deg,
+ rgba(175,169,153,0.7455357142857143) 4%,
+   rgb(189, 184, 184) 91%)  !important;
    /* background: #c4b7a8 !important ; */
+  
+  height: 100vh;
 } 
 .ci{
     width: 80px;
@@ -210,10 +213,11 @@ rgba(10, 37, 64, 0.35) 0px -2px 6px 0px ;
 }
 .pof{
     
-    
+    font-weight: bold;
 }
 .pof span{
     font-style: italic;
+    font-weight: lighter;
 }
 .name{
     font-family: 'Poppins', sans-serif;
